@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Peace Sans';
+  src: url('fonts/Peace\ Sans.otf')
+}
+
+@font-face {
+  font-family: 'NYC';
+  src: url('fonts/ADAM.CG\ PRO.otf')
+}
+
+@font-face{
+  font-family: 'Odin Rounded';
+  src: url('fonts/Odin\ Rounded\ -\ Bold.otf')
+}
+
+@media only screen and (max-width: 800px) {
+  h1.title{
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  h1.headingmain{
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  h2.headers{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  img.banner{
+    width: 75%;
+  }
+}
+.title{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 10px;
+  text-align: center;
+  font-family: Peace Sans;
+  font-size: 75px;
+  animation: ease-in;
+  transition-duration: 1.0s;
+  color: rgb(255, 255, 255)
+}
+
+.headingmain{
+  padding: 30px;
+  margin: 10px;
+}
+
+/* SPACING */
+.spacesmall{
+  height: 10px;
+}
+
+.spacemedium{
+  height: 25px;
+}
+
+.spacelarge{
+  height: 40px;
+}
+
+/* ANIMATIONS */
+.fadeInAnimation{
+  padding: 30x;
+  margin: 20px;
+  text-align: center;
+  font-family: NYC;  
+  font-size: 30px;
+  animation: slideInFromBottom 3s ;
+  transition-duration: 1.8s;
+  color : rgb(255, 255, 255);
+}
+
+/* BACKGROUNDS */
+body {
+  background-image: url('imgs/bkgrds/saturn.jpg');
+  background-size: 100%;
+}
+
+
